@@ -88,18 +88,14 @@ ${prefix}bans / عدد الاشخاص المبندة
 ${prefix}avatar/صورتك او صورة الي تمنشنو
 ${prefix}embed/يكرر الي تقولو بشكل حلو
 ${prefix}emoji <any things>/لتحويل اي كلمه تقولها الي ايموجي
-${prefix}inv/لدعوة البوت الى سيرفرك
-${prefix}support/سيرفر الدعم
-${prefix}contact/ارسال اقتراح او لمراسلة صاحب البوت
+Vows System  © 
 **
   `
 ,`
         ***__Administrative Orders__***
 **
 ${prefix}move @user /  لسحب الشخص الى روومك
-${prefix}bc / رسالة جماعية الى كل اعضاء السيرفر
-${prefix}bk / رسالة جماعيه مع
-${prefix}rolebc <everyone or @role> / راسال رساله جماعيه لرتبه محدده
+Vows System  © 
 ${prefix}role @user <rank> / لأعطاء رتبة لعضو معين
 ${prefix}roleremove @user <rank> / لازالة الرتبة من شخص معين
 ${prefix}give all <rank> / لأعطاء رتبة للجميع
@@ -124,6 +120,7 @@ ${prefix}delet <name> / مسح الشات او الرووم فويس
 ${prefix}make <number> / ينشا لك الوان مع كم الوان تبي
 ${prefix}color <number> / لختيار لون
 ${prefix}deletecolors <number> / لحذف الالوان
+Vows System  © 
 **
    `,`
         ***__Music orders__***
@@ -136,6 +133,8 @@ ${prefix}vol / لتغيير درجة الصوت 100 - 0
 ${prefix}stop / لإخرآج البوت من الروم
 ${prefix}np / لمعرفة الأغنية المشغلة حآليا
 ${prefix}queue / لمعرفة قآئمة التشغيل
+مازال تحت التطوير
+Vows System  © 
 **
         ***__Games orders__***
  **       
@@ -306,7 +305,7 @@ client.on('message', function(msg) {
             .addField('``My ID``' , `[ ${client.user.id} ]` , true)
 			      .addField('``My Prefix``' , `[ ! ]` , true)
 			      .addField('``My Language``' , `[ Java Script ]` , true)
-			      .setFooter('By | 7rBH')
+			      .setFooter('By | Vows System  © ')
     })
 }
 });
@@ -743,7 +742,7 @@ let embed = new Discord.RichEmbed()
      .setAuthor(message.author.username, message.author.avatarURL)
      .setDescription(':mailbox_with_mail: تم ارسال الرسالة الى صاحب البوت بنجاح')
      .setThumbnail(message.author.avatarURL)
-     .setFooter("By : 7rBH")
+     .setFooter("By : Vows System  © ")
                                                 
 
 message.channel.send(embed);
